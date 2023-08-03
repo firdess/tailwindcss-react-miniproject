@@ -1,0 +1,23 @@
+@tailwind base;
+
+.wrapper {
+  @apply max-w-[1920px] mx-auto
+}
+h1{
+  @apply text-primaryColor font-displayFont text-[65px] font-bold leading-[77px]
+
+}
+
+@tailwind components;
+
+.textButton {
+  @apply font-displayFont text-[20px] font-medium leading-[23.7px]
+}
+
+.textP{
+  @apply text-linkColor font-textFont text-[20px] font-normal leading-6
+}
+
+
+
+@tailwind utilities;
